@@ -44,14 +44,22 @@ button{
     padding: 40px;
     width: 400px;
 }
-img {
+.image1 {
     height: 300px;
     width: 200px;
     padding: 40px;
+}
+.image2 {
+    height: 150px;
+    width: 150px;
 }
 .hero-subtext{
     font-size: 18px;
     color: #E5E7EB;
 }
-.top-half:nth-child(4){
+.middle-header{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
