@@ -73,3 +73,16 @@ button{
     text-align: center;
     gap: 3rem;
 }
+.bottom{
+    display: flex;
+    height: 300px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    justify-content: center;
+}
+.quote{
+    margin-top: 40px;
+}
