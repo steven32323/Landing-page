@@ -4,22 +4,54 @@
 .header {
     display: flex;
     background-color: #1F2937;
-    color: white;
     justify-content: space-between;
     font-size: 18px;
+}
+.logo{
+    font-size: 24px;
+    color: #F9FaF8;
 }
 .links{
     display: flex;
     gap: 1rem;
 } 
+.links p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 .top-half {
     display: flex;
     background-color: #1F2937;
     color: #F9FAF8;
-    flex: 1;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 .hero-main-text{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+}
+button{
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    flex: 0 1 auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+.subtext {
+    flex-direction: column;
+    padding: 40px;
+    width: 400px;
+}
+img {
+    height: 300px;
+    width: 200px;
+    padding: 40px;
+}
+.hero-subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.top-half:nth-child(4){
 }
