@@ -86,3 +86,22 @@ button{
 .quote{
     margin-top: 40px;
 }
+.calltoaction{
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    height: 150px;
+    width: 800px;
+    justify-content: space-evenly;
+    margin: auto;
+    font-family: 'Roboto';
+}
+.CTAtext{
+    padding: 30px;
+    line-height: 5px;
+}
+.calltoaction button{
+    border-color: white;
+    height: fit-content;
+    margin-top: 40px;
+}
